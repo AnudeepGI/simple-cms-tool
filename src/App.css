@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+.content{
+  width: 600px;
+  margin: auto;
+  padding:10px;
+}
+.menu{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.my-custom-quill .ql-editor {
+  min-height: 200px;
+}
 
 .App-logo {
   height: 40vmin;
